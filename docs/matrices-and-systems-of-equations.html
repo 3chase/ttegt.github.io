@@ -561,7 +561,7 @@ x+y&amp;=&amp;150\\
     *y &amp; = &amp; *
 \end{array}\right. ,
 \end{equation*}\]</span>
-<p>where the asterisks represent different constants. If we have it in this <em>upper triangular form</em>, we can immediately solve for <span class="math inline">\(y\)</span>, and once we know <span class="math inline">\(y\)</span>, we can use its value the first equation to solve for <span class="math inline">\(x\)</span>.</p>
+<p>where the asterisks represent different constants. If we have it in this <em>upper triangular form</em>, we can immediately solve for <span class="math inline">\(y\)</span>, and once we know <span class="math inline">\(y\)</span>, we can use its value in the first equation to solve for <span class="math inline">\(x\)</span>.</p>
 <p>We can put a system of equations into upper triangular form using a sequence of operations on the equations. The following operations do not change the solution set for a linear system.</p>
 <ol style="list-style-type: decimal">
 <li>Multiplying both sides of an equation by a nonzero constant</li>
@@ -653,9 +653,9 @@ x+2y&amp;=&amp;3\\
 </div>
 <div id="parameters" class="section level3 unnumbered hasAnchor">
 <h3>Parameters<a href="matrices-and-systems-of-equations.html#parameters" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>When a system of equation has infinitely many solutions, we like to write the solutions in terms of <em>parameters</em>. For instance, in the last example, whose solution was the line <span class="math inline">\(2x+3y=6\)</span>, we can let <span class="math inline">\(y=t\)</span> and solve for <span class="math inline">\(x\)</span>: <span class="math inline">\(2x+3t=6\)</span> or <span class="math inline">\(x=3-\frac{3}{2}t\)</span>, and our solution is</p>
+<p>When a system of equations has infinitely many solutions, we like to write the solutions in terms of <em>parameters</em>. For instance, in the last example, whose solution was the line <span class="math inline">\(2x+3y=6\)</span>, we can let <span class="math inline">\(y=t\)</span> and solve for <span class="math inline">\(x\)</span>: <span class="math inline">\(2x+3t=6\)</span> or <span class="math inline">\(x=3-\frac{3}{2}t\)</span>, and our solution is</p>
 <p><span class="math display">\[\left\{(3-\frac{3}{2}t,t),t\in \mathbb{R}\right\}.\]</span></p>
-<p>The last expression can be read as “the set of all ordered pairs of the form <span class="math inline">\((3-\frac{3}{2}t,t)\)</span>, where <span class="math inline">\(t\)</span> is an element of the real numbers.” Different values of <span class="math inline">\(t\)</span> lead to different solutions. For instance. if <span class="math inline">\(t=0,\)</span> we have <span class="math inline">\((x,y)=(3,0),\)</span> while if <span class="math inline">\(t=1,\)</span> we get <span class="math inline">\((x,y)=\left(\frac{3}{2},1\right).\)</span> Note that we can use any real number for <span class="math inline">\(t,\)</span> not just an integer.</p>
+<p>The last expression can be read as “the set of all ordered pairs of the form <span class="math inline">\((3-\frac{3}{2}t,t)\)</span>, where <span class="math inline">\(t\)</span> is an element of the real numbers.” Different values of <span class="math inline">\(t\)</span> lead to different solutions. For instance, if <span class="math inline">\(t=0,\)</span> we have <span class="math inline">\((x,y)=(3,0),\)</span> while if <span class="math inline">\(t=1,\)</span> we get <span class="math inline">\((x,y)=\left(\frac{3}{2},1\right).\)</span> Note that we can use any real number for <span class="math inline">\(t,\)</span> not just an integer.</p>
 <p>Parameterizations are not unique. Letting <span class="math inline">\(x=t\)</span> and solving for <span class="math inline">\(y\)</span> gives us a different-looking solution:</p>
 <p><span class="math display">\[\left\{(t,2-\frac{2}{3}t),t\in \mathbb{R}\right\}.\]</span></p>
 <p>In the next section, we will learn a systematic way to parameterize solutions.</p>
@@ -1191,7 +1191,7 @@ Note that <span class="math inline">\(w=-2\)</span>, regardless of the value of 
 <p><span class="math display">\[\begin{bmatrix}1&amp;1&amp;1\\12 &amp; 8 &amp; 6\\0 &amp; 1 &amp; -1 \end{bmatrix}\begin{bmatrix} 110\\50\\40\end{bmatrix}=\begin{bmatrix} 200\\1960\\10\end{bmatrix}\]</span></p>
 </div>
 </div>
-<p>Here’s an another example</p>
+<p>Here’s another example</p>
 <div class="examplebox">
 <div class="example">
 <p><span id="exm:unlabeled-div-11" class="example"><strong>Example 1.13  </strong></span><span class="math display">\[
@@ -1763,7 +1763,7 @@ When we perform them in a strategic manner, we can get to a place where we can f
 <p>The terms <em>rating</em> and <em>ranking</em> are often confused. Here are some definitions.</p>
 <div class="defbox">
 <div class="definition">
-<p><span id="def:unlabeled-div-23" class="definition"><strong>Definition 1.3  </strong></span>A <strong>rating</strong> is a numerical value that designates a team or individual’s quality. A <strong>ranking</strong> is an ordered list of teams or individuals according to their relative ratings, or a team or individual’s position in the overall ranking.</p>
+<p><span id="def:unlabeled-div-23" class="definition"><strong>Definition 1.3  </strong></span>A <strong>rating</strong> is a numerical value that designates a team’s or individual’s quality. A <strong>ranking</strong> is an ordered list of teams or individuals according to their relative ratings, or a team’s or individual’s position in the overall ranking.</p>
 </div>
 </div>
 <div class="examplebox">
@@ -1930,7 +1930,7 @@ r_1&amp;=\frac{1+(1-2)/2+(r_2+r_3+r_5)}{2+3}\\
 </div>
 <div id="the-colley-matrix" class="section level3 unnumbered hasAnchor">
 <h3>The Colley Matrix<a href="matrices-and-systems-of-equations.html#the-colley-matrix" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>The Colley Matrix <span class="math inline">\(\mathbf{C}\)</span> is the the coefficient matrix. The entries in <span class="math inline">\(\mathbf{C}\)</span> are given by</p>
+<p>The Colley Matrix <span class="math inline">\(\mathbf{C}\)</span> is the coefficient matrix. The entries in <span class="math inline">\(\mathbf{C}\)</span> are given by</p>
 <p><span class="math display">\[\mathbf{C}_{ij}=\begin{cases} 2+t_i,&amp; i=j \text{ (diagonal entries)}\\-n_{ij}, &amp;i\neq j\end{cases},\]</span></p>
 <p>where <span class="math inline">\(n_{ij}\)</span> is the number of times team <span class="math inline">\(i\)</span> and team <span class="math inline">\(j\)</span> have played each other. The right hand side vector <span class="math inline">\(\mathbf{b}\)</span> has entries <span class="math inline">\(b_i=1+(w_i-l_i)/2\)</span>. The system of equations to solve in matrix form is</p>
 <p><span class="math display">\[\mathbf{C}\mathbf{r}=\mathbf{b},\]</span></p>
@@ -2080,7 +2080,7 @@ ax+2y&amp;=&amp;1\\
 <ol style="list-style-type: lower-alpha">
 <li>For what values of <span class="math inline">\(a\)</span> (if any) does the system have a unique solution?</li>
 <li>For what values of <span class="math inline">\(a\)</span> (if any) does the system have no solutions?</li>
-<li>For what values of <span class="math inline">\(a\)</span> (if any) does the system have infinitly many solutions?</li>
+<li>For what values of <span class="math inline">\(a\)</span> (if any) does the system have infinitely many solutions?</li>
 </ol></li>
 <li><p>Consider the system of equations
 <span class="math display">\[\begin{align*}
@@ -2092,7 +2092,7 @@ ax+2y&amp;=&amp;1\\
 <ol style="list-style-type: lower-alpha">
 <li>For what values of <span class="math inline">\(b\)</span> (if any) does the system have a unique solution?</li>
 <li>For what values of <span class="math inline">\(b\)</span> (if any) does the system have no solutions?</li>
-<li>For what values of <span class="math inline">\(b\)</span> (if any) does the system have infinitly many solutions?</li>
+<li>For what values of <span class="math inline">\(b\)</span> (if any) does the system have infinitely many solutions?</li>
 </ol></li>
 <li><p>A barbershop charges $20 for an adult haircut and $12 for a youth haircut. One day the barbershop has 40 customers and has $664 in revenue. Set up and solve a system of equations to determine how many adult and how many youth customers they had.</p></li>
 <li><p>A golf tournament sells reserved seats for $120 and general admission tickets for $58. For the Sunday final round, the total attendance was 8,425, and the ticket revenue was $563,980. Set up and solve a system of equations to determine how many of each type of ticket was sold.</p></li>
@@ -2443,3 +2443,4 @@ gitbook.start({
 </body>
 
 </html>
+
